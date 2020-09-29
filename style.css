@@ -1,0 +1,96 @@
+:root{
+  --darkPurple: #231942;
+  --purple: #333091;
+  --lightblue: #82DDF0;
+  --green: #3cd070;
+  --yellow: #F8C630;
+}
+
+body{
+  font-family: 'Space Mono', monospace;
+  background-color: var(--darkPurple);
+  color: white;
+}
+
+header{
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar-menu{
+  color: var(--yellow);
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  display: flex;
+}
+
+ul li{ 
+  columns: white;
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar-logo{
+  width: 150px;
+  height: auto;
+}
+
+.main-content{
+  display: flex;
+  padding: 10px;
+}
+
+.space-img{
+  height: auto;
+  width: 200px;
+ border-radius: 5px; 
+}
+
+.book-btn{
+  display: flex;
+  background-color: var(--green);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-style: 2px solid;
+  font-family: inherit;
+  margin-top: 10px;
+}
+
+.trip-options{
+  background-color: var(--purple);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 15px;
+  width: 30%;
+  height: auto;
+}
+
+.vacation-container{
+  display: flex;
+}
+
+footer{
+  padding: 15px;
+}
+
+.contact-btn{
+  background-color: var(--green);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-style: 10px solid;
+  font-family: inherit;
+}
